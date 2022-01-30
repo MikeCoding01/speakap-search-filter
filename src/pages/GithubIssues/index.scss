@@ -1,0 +1,18 @@
+.GithubIssues {
+  width: 80%;
+
+  .result__card {
+    box-shadow: 0 4px 8px 0 #00000033;
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #00688b;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+
+    &:hover {
+      box-shadow: 0 8px 16px 0 #00000033;
+    }
+  }
+}
